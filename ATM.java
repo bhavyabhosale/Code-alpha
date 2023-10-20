@@ -61,7 +61,7 @@ class Account {
     }
 }
 
-public class ATM {
+ class ATM {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int accountNumber = 12345;  // Sample account number for demonstration
