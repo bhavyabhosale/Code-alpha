@@ -61,10 +61,13 @@ class Account {
     }
 }
 
- class ATM {
+class ATM {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int accountNumber = 12345;  // Sample account number for demonstration
+
+        System.out.print("Enter your account number: ");
+        int accountNumber = scanner.nextInt();
+
         Account account = new Account(accountNumber);
 
         System.out.println("Welcome to the ATM.");
